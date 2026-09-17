@@ -1,0 +1,91 @@
+- generic [active] [ref=f4e1]:
+  - link "Skip to content" [ref=f4e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f4e3]:
+    - generic [ref=f4e4]:
+      - link "FC The Food Court EASTC Campus · Kempton Park" [ref=f4e5] [cursor=pointer]:
+        - /url: index.html
+        - generic [ref=f4e6]: FC
+        - generic [ref=f4e7]:
+          - strong [ref=f4e8]: The Food Court
+          - generic [ref=f4e9]: EASTC Campus · Kempton Park
+      - navigation "Primary" [ref=f4e10]:
+        - link "Home" [ref=f4e11] [cursor=pointer]:
+          - /url: index.html
+        - link "Venue" [ref=f4e12] [cursor=pointer]:
+          - /url: about.html
+        - link "Events & hire" [ref=f4e13] [cursor=pointer]:
+          - /url: events.html
+        - link "Gallery" [ref=f4e14] [cursor=pointer]:
+          - /url: gallery.html
+        - link "Hours" [ref=f4e15] [cursor=pointer]:
+          - /url: index.html#visit
+        - link "Contact" [ref=f4e16] [cursor=pointer]:
+          - /url: contact.html
+        - link "Hire a space" [ref=f4e17] [cursor=pointer]:
+          - /url: events.html
+  - main [ref=f4e18]:
+    - generic [ref=f4e21]:
+      - generic [ref=f4e22]: About
+      - heading "A campus kitchen with a name on the building" [level=1] [ref=f4e23]
+      - paragraph [ref=f4e24]: Entity 03 of the EASTC Technocentric Varsity — on the same Maxwell Street grounds as Foundation and the Institute.
+    - generic [ref=f4e26]:
+      - generic [ref=f4e27]:
+        - paragraph [ref=f4e28]: "The Food Court feeds the campus and hosts the days that need more than a classroom: Foundation programmes, SETA cohorts, workshop groups, graduation teas, and neighbour gatherings."
+        - paragraph [ref=f4e29]: The lounge, glass pavilion, and courtyard are part of campus life — study tables upstairs, plates downstairs, garden seats when the weather holds. Red window frames on Maxwell Street mark the kitchen. The round Food Court badge sits on the timber fascia above the plants.
+        - paragraph [ref=f4e30]: "EASTC Holdings lists four education entities plus Foundation NPC and The Food Court on one campus. This site is the public door for the pavilion: where it is, when it is open, and how to hire it. Daily meal ordering is a different site."
+      - img "The Food Court exterior with signage and planter boxes" [ref=f4e31]
+    - generic [ref=f4e33]:
+      - generic [ref=f4e34]:
+        - generic [ref=f4e35]: On campus
+        - heading "How the pavilion sits" [level=2] [ref=f4e36]
+      - generic [ref=f4e37]:
+        - article [ref=f4e38]:
+          - img "Campus with Food Court and EASTC hall" [ref=f4e39]
+          - generic [ref=f4e40]:
+            - heading "Maxwell Street grounds" [level=3] [ref=f4e41]
+            - paragraph [ref=f4e42]: 43 Maxwell Street (43B on some EASTC listings), Kempton Park, 1619. Blue hall, gardens, and the two-storey Food Court.
+        - article [ref=f4e43]:
+          - img "Someone working in the lounge" [ref=f4e44]
+          - generic [ref=f4e45]:
+            - heading "Lounge as a room to use" [level=3] [ref=f4e46]
+            - paragraph [ref=f4e47]: Not only a canteen. Laptops, teas, waiting for a session, and quieter seating away from the line.
+        - article [ref=f4e48]:
+          - img "Guests at a buffet" [ref=f4e49]
+          - generic [ref=f4e50]:
+            - heading "Kitchen for events" [level=3] [ref=f4e51]
+            - paragraph [ref=f4e52]: The same pots that feed campus can plate a hired day — buffet trays, tea stations, Friday grill by arrangement.
+  - contentinfo [ref=f4e53]:
+    - generic [ref=f4e54]:
+      - generic [ref=f4e55]:
+        - link "FC The Food Court" [ref=f4e56] [cursor=pointer]:
+          - /url: index.html
+          - generic [ref=f4e57]: FC
+          - strong [ref=f4e58]: The Food Court
+        - paragraph [ref=f4e59]: Venue and campus kitchen on the EASTC Technocentric Varsity grounds.
+      - generic [ref=f4e60]:
+        - heading "Visit" [level=3] [ref=f4e61]
+        - paragraph [ref=f4e62]: 43 Maxwell StreetKempton Park, 1619
+        - link "011 394 1488" [ref=f4e63] [cursor=pointer]:
+          - /url: tel:+27113941488
+      - generic [ref=f4e64]:
+        - heading "This site" [level=3] [ref=f4e65]
+        - link "About the venue" [ref=f4e66] [cursor=pointer]:
+          - /url: about.html
+        - link "Events & hire" [ref=f4e67] [cursor=pointer]:
+          - /url: events.html
+        - link "Gallery" [ref=f4e68] [cursor=pointer]:
+          - /url: gallery.html
+        - link "Contact" [ref=f4e69] [cursor=pointer]:
+          - /url: contact.html
+      - generic [ref=f4e70]:
+        - heading "EASTC ecosystem" [level=3] [ref=f4e71]
+        - link "EASTC Holdings" [ref=f4e72] [cursor=pointer]:
+          - /url: https://eastech.co.za/
+        - link "EASTC Foundation" [ref=f4e73] [cursor=pointer]:
+          - /url: https://eastechfoundation.co.za/
+        - link "EASTECH Institute" [ref=f4e74] [cursor=pointer]:
+          - /url: https://eastech-institute.co.za/
+    - generic [ref=f4e75]:
+      - generic [ref=f4e76]: © 2026 The Food Court · EASTC Campus
+      - generic [ref=f4e77]: Public venue site

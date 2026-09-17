@@ -1,0 +1,141 @@
+- generic [active] [ref=f2e1]:
+  - link "Skip to content" [ref=f2e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f2e3]:
+    - generic [ref=f2e4]:
+      - link "FC The Food Court EASTC Campus · Kempton Park" [ref=f2e5] [cursor=pointer]:
+        - /url: index.html
+        - generic [ref=f2e6]: FC
+        - generic [ref=f2e7]:
+          - strong [ref=f2e8]: The Food Court
+          - generic [ref=f2e9]: EASTC Campus · Kempton Park
+      - navigation "Primary" [ref=f2e10]:
+        - link "Home" [ref=f2e11] [cursor=pointer]:
+          - /url: index.html
+        - link "Venue" [ref=f2e12] [cursor=pointer]:
+          - /url: about.html
+        - link "Events & hire" [ref=f2e13] [cursor=pointer]:
+          - /url: events.html
+        - link "Gallery" [ref=f2e14] [cursor=pointer]:
+          - /url: gallery.html
+        - link "Hours" [ref=f2e15] [cursor=pointer]:
+          - /url: index.html#visit
+        - link "Contact" [ref=f2e16] [cursor=pointer]:
+          - /url: contact.html
+        - link "Hire a space" [ref=f2e17] [cursor=pointer]:
+          - /url: events.html#enquire
+  - main [ref=f2e18]:
+    - generic [ref=f2e21]:
+      - generic [ref=f2e22]: Events & hire
+      - heading "Spaces for campus days and private gatherings" [level=1] [ref=f2e23]
+      - paragraph [ref=f2e24]: Lounge, glass pavilion, courtyard, and kitchen. 20 to 200 people depending on the mix of rooms. 48 hours’ notice for full pots.
+    - generic [ref=f2e27]:
+      - article [ref=f2e28]:
+        - img "Lounge seating" [ref=f2e29]
+        - generic [ref=f2e30]:
+          - heading "Upstairs lounge" [level=3] [ref=f2e31]
+          - paragraph [ref=f2e32]: Leather seating and a wood ceiling. Suited to teas, smaller receptions, waiting rooms, and partner meetings.
+          - generic [ref=f2e33]:
+            - generic [ref=f2e34]: ± 20–40
+            - generic [ref=f2e35]: Indoor
+      - article [ref=f2e36]:
+        - img "Glass pavilion" [ref=f2e37]
+        - generic [ref=f2e38]:
+          - heading "Glass pavilion" [level=3] [ref=f2e39]
+          - paragraph [ref=f2e40]: Long tables in daylight. Briefings, plated lunches, study groups, and buffet service from the kitchen below.
+          - generic [ref=f2e41]:
+            - generic [ref=f2e42]: Dining
+            - generic [ref=f2e43]: Upper level
+      - article [ref=f2e44]:
+        - img "Courtyard" [ref=f2e45]
+        - generic [ref=f2e46]:
+          - heading "Courtyard garden" [level=3] [ref=f2e47]
+          - paragraph [ref=f2e48]: Lawn, paths, and gazebos toward the EASTC hall. Markets, activations, outdoor lunches, and braai days.
+          - generic [ref=f2e49]:
+            - generic [ref=f2e50]: Outdoor
+            - generic [ref=f2e51]: Weather dependent
+    - generic [ref=f2e53]:
+      - generic [ref=f2e54]:
+        - generic [ref=f2e55]: What we plate
+        - heading "Kitchen with the rooms" [level=2] [ref=f2e56]
+        - paragraph [ref=f2e57]: Hire can be space-only or space with food from the campus kitchen. We plate from the same line that feeds students every weekday.
+        - list [ref=f2e58]:
+          - listitem [ref=f2e59]: "Buffet trays: stew, pap, rice, veg, chicken"
+          - listitem [ref=f2e60]: Tea and coffee stations in the lounge
+          - listitem [ref=f2e61]: Braai packs on Fridays by arrangement
+          - listitem [ref=f2e62]: Graduation teas, Foundation days, workshop groups, SETA cohorts
+        - paragraph [ref=f2e63]:
+          - text: Individual meal pre-order and checkout are not on this site. Send guests to
+          - link "thefood-court.co.za" [ref=f2e64] [cursor=pointer]:
+            - /url: https://thefood-court.co.za/
+          - text: for that.
+      - img "Event buffet in the lounge" [ref=f2e65]
+    - generic [ref=f2e67]:
+      - generic [ref=f2e68]:
+        - heading "Enquire to hire" [level=2] [ref=f2e69]
+        - paragraph [ref=f2e70]: Opens your email to queries@eastc.co.za with the details below. We confirm availability from campus.
+        - generic [ref=f2e71]: Name
+        - textbox "Name" [ref=f2e72]
+        - generic [ref=f2e73]: Email
+        - textbox "Email" [ref=f2e74]
+        - generic [ref=f2e75]: Phone
+        - textbox "Phone" [ref=f2e76]
+        - generic [ref=f2e77]: Preferred date
+        - textbox "Preferred date" [ref=f2e78]
+        - generic [ref=f2e79]: Space
+        - combobox "Space" [ref=f2e80]:
+          - option "Not sure yet" [selected]
+          - option "Upstairs lounge"
+          - option "Glass pavilion"
+          - option "Courtyard garden"
+          - option "Kitchen / buffet only"
+          - option "Whole venue"
+        - generic [ref=f2e81]: Headcount
+        - spinbutton "Headcount" [ref=f2e82]
+        - generic [ref=f2e83]: Notes
+        - textbox "Notes" [ref=f2e84]:
+          - /placeholder: Times, catering, AV, access
+        - button "Open email enquiry" [ref=f2e85] [cursor=pointer]
+        - paragraph [ref=f2e86]: No cart, no payment on this page — hire is confirmed by the campus team.
+      - generic [ref=f2e87]:
+        - generic [ref=f2e88]:
+          - heading "Before you book" [level=3] [ref=f2e89]
+          - paragraph [ref=f2e90]: Weekday kitchen traffic is real. Evening and weekend hire is by arrangement. Parking is on campus; say if you need access past the gate.
+          - paragraph [ref=f2e91]:
+            - link "Call 011 394 1488" [ref=f2e92] [cursor=pointer]:
+              - /url: tel:+27113941488
+        - img "Kitchen plating for a crowd" [ref=f2e93]
+  - contentinfo [ref=f2e94]:
+    - generic [ref=f2e95]:
+      - generic [ref=f2e96]:
+        - link "FC The Food Court" [ref=f2e97] [cursor=pointer]:
+          - /url: index.html
+          - generic [ref=f2e98]: FC
+          - strong [ref=f2e99]: The Food Court
+        - paragraph [ref=f2e100]: Venue hire on the EASTC campus, Kempton Park.
+      - generic [ref=f2e101]:
+        - heading "Visit" [level=3] [ref=f2e102]
+        - paragraph [ref=f2e103]: 43 Maxwell StreetKempton Park, 1619
+        - link "011 394 1488" [ref=f2e104] [cursor=pointer]:
+          - /url: tel:+27113941488
+      - generic [ref=f2e105]:
+        - heading "This site" [level=3] [ref=f2e106]
+        - link "About the venue" [ref=f2e107] [cursor=pointer]:
+          - /url: about.html
+        - link "Events & hire" [ref=f2e108] [cursor=pointer]:
+          - /url: events.html
+        - link "Gallery" [ref=f2e109] [cursor=pointer]:
+          - /url: gallery.html
+        - link "Contact" [ref=f2e110] [cursor=pointer]:
+          - /url: contact.html
+      - generic [ref=f2e111]:
+        - heading "EASTC ecosystem" [level=3] [ref=f2e112]
+        - link "EASTC Holdings" [ref=f2e113] [cursor=pointer]:
+          - /url: https://eastech.co.za/
+        - link "EASTC Foundation" [ref=f2e114] [cursor=pointer]:
+          - /url: https://eastechfoundation.co.za/
+        - link "Meals site" [ref=f2e115] [cursor=pointer]:
+          - /url: https://thefood-court.co.za/
+    - generic [ref=f2e116]:
+      - generic [ref=f2e117]: © 2026 The Food Court · EASTC Campus
+      - generic [ref=f2e118]: No checkout on this site

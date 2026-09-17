@@ -1,0 +1,103 @@
+- generic [ref=f3e1]:
+  - link "Skip to content" [ref=f3e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f3e3]:
+    - generic [ref=f3e4]:
+      - link "FC The Food Court EASTC Campus · Kempton Park" [ref=f3e5] [cursor=pointer]:
+        - /url: index.html
+        - generic [ref=f3e6]: FC
+        - generic [ref=f3e7]:
+          - strong [ref=f3e8]: The Food Court
+          - generic [ref=f3e9]: EASTC Campus · Kempton Park
+      - navigation "Primary" [ref=f3e10]:
+        - link "Home" [ref=f3e11] [cursor=pointer]:
+          - /url: index.html
+        - link "Venue" [ref=f3e12] [cursor=pointer]:
+          - /url: about.html
+        - link "Events & hire" [ref=f3e13] [cursor=pointer]:
+          - /url: events.html
+        - link "Gallery" [ref=f3e14] [cursor=pointer]:
+          - /url: gallery.html
+        - link "Hours" [ref=f3e15] [cursor=pointer]:
+          - /url: index.html#visit
+        - link "Contact" [ref=f3e16] [cursor=pointer]:
+          - /url: contact.html
+        - link "Hire a space" [ref=f3e17] [cursor=pointer]:
+          - /url: events.html
+  - main [ref=f3e18]:
+    - generic [ref=f3e20]:
+      - generic [ref=f3e21]: Gallery
+      - heading "The room, the pots, the yard" [level=1] [ref=f3e22]
+      - paragraph [ref=f3e23]: All photographs from the campus Food Court on Maxwell Street.
+    - generic [ref=f3e26]:
+      - link [active] [ref=f3e27] [cursor=pointer]:
+        - /url: assets/img/campus.jpg
+        - img "Campus overview with The Food Court" [ref=f3e28]
+      - link [ref=f3e29] [cursor=pointer]:
+        - /url: assets/img/exterior.jpg
+        - img "Exterior signage" [ref=f3e30]
+      - link [ref=f3e31] [cursor=pointer]:
+        - /url: assets/img/glass.jpg
+        - img "Glass pavilion" [ref=f3e32]
+      - link [ref=f3e33] [cursor=pointer]:
+        - /url: assets/img/lounge.jpg
+        - img "Lounge" [ref=f3e34]
+      - link [ref=f3e35] [cursor=pointer]:
+        - /url: assets/img/courtyard.jpg
+        - img "Courtyard garden" [ref=f3e36]
+      - link [ref=f3e37] [cursor=pointer]:
+        - /url: assets/img/guest.jpg
+        - img "Guest in the lounge" [ref=f3e38]
+      - link [ref=f3e39] [cursor=pointer]:
+        - /url: assets/img/buffet.jpg
+        - img "Buffet service" [ref=f3e40]
+      - link [ref=f3e41] [cursor=pointer]:
+        - /url: assets/img/serve.jpg
+        - img "Kitchen service line" [ref=f3e42]
+      - link [ref=f3e43] [cursor=pointer]:
+        - /url: assets/img/chicken.jpg
+        - img "Kitchen plates" [ref=f3e44]
+      - link [ref=f3e45] [cursor=pointer]:
+        - /url: assets/img/beans.jpg
+        - img "Pot on the line" [ref=f3e46]
+      - link [ref=f3e47] [cursor=pointer]:
+        - /url: assets/img/burgers.jpg
+        - img "Grill items" [ref=f3e48]
+      - link [ref=f3e49] [cursor=pointer]:
+        - /url: assets/img/pap.jpg
+        - img "Campus plates" [ref=f3e50]
+  - contentinfo [ref=f3e51]:
+    - generic [ref=f3e52]:
+      - generic [ref=f3e53]:
+        - link "FC The Food Court" [ref=f3e54] [cursor=pointer]:
+          - /url: index.html
+          - generic [ref=f3e55]: FC
+          - strong [ref=f3e56]: The Food Court
+        - paragraph [ref=f3e57]: Photographs from 43 Maxwell Street, Kempton Park.
+      - generic [ref=f3e58]:
+        - heading "Visit" [level=3] [ref=f3e59]
+        - paragraph [ref=f3e60]: 43 Maxwell StreetKempton Park, 1619
+        - link "011 394 1488" [ref=f3e61] [cursor=pointer]:
+          - /url: tel:+27113941488
+      - generic [ref=f3e62]:
+        - heading "This site" [level=3] [ref=f3e63]
+        - link "About the venue" [ref=f3e64] [cursor=pointer]:
+          - /url: about.html
+        - link "Events & hire" [ref=f3e65] [cursor=pointer]:
+          - /url: events.html
+        - link "Contact" [ref=f3e66] [cursor=pointer]:
+          - /url: contact.html
+      - generic [ref=f3e67]:
+        - heading "EASTC ecosystem" [level=3] [ref=f3e68]
+        - link "EASTC Holdings" [ref=f3e69] [cursor=pointer]:
+          - /url: https://eastech.co.za/
+        - link "EASTC Foundation" [ref=f3e70] [cursor=pointer]:
+          - /url: https://eastechfoundation.co.za/
+        - link "EASTECH Institute" [ref=f3e71] [cursor=pointer]:
+          - /url: https://eastech-institute.co.za/
+    - generic [ref=f3e72]:
+      - generic [ref=f3e73]: © 2026 The Food Court · EASTC Campus
+      - generic [ref=f3e74]: Public venue site
+  - dialog "Photograph" [ref=f3e75]:
+    - button "Close" [ref=f3e76] [cursor=pointer]: ×
+    - img "Campus overview with The Food Court" [ref=f3e77]

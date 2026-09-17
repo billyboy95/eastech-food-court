@@ -122,6 +122,7 @@ h1, h2, h3, h4 { font-family: "Montserrat", sans-serif; line-height: 1.12; lette
 .hero-meta strong { display: block; color: var(--gold); font-size: 11px; letter-spacing: 1.6px; text-transform: uppercase; }
 
 section { padding: 88px 0; }
+#visit, #about, #spaces, #gallery, #enquire { scroll-margin-top: 88px; }
 .section-head { max-width: 680px; margin-bottom: 40px; }
 .section-head h2 { font-size: clamp(28px, 4.2vw, 46px); color: var(--navy); margin: 10px 0 12px; }
 .section-head p { color: var(--body); }
