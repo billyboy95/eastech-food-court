@@ -1,2 +1,4 @@
 artifacts/
 .playwright-mcp/
+---
+walkthrough/
