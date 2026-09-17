@@ -1,82 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Contact | The Food Court</title>
-<meta name="description" content="Find The Food Court at 43 Maxwell Street, Kempton Park.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../shared/3d.css">
-<link rel="stylesheet" href="assets/css/food.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | The Food Court EASTC</title>
+  <meta name="description" content="Contact The Food Court at 43 Maxwell Street, Kempton Park — 011 394 1488, queries@eastc.co.za.">
+  <link rel="canonical" href="https://eastechfoodcourt.co.za/contact.html">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800;900&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/venue.css">
 </head>
 <body>
-<a class="skip" href="#main" style="position:absolute;left:12px;top:-40px">Skip</a>
-
+<a class="skip" href="#main">Skip to content</a>
 <header class="nav">
   <div class="wrap nav-inner">
     <a class="brand" href="index.html">
       <div class="mark">FC</div>
-      <div><strong>The Food Court</strong><div style="font-size:10px;letter-spacing:1.6px;color:#E0B25A;text-transform:uppercase">EASTC Campus · Kempton Park</div></div>
+      <div><strong>The Food Court</strong><small>EASTC Campus · Kempton Park</small></div>
     </a>
-    <button class="menu-btn" aria-label="Menu">☰</button>
-    <nav class="nav-links">
-      <a href="index.html">Today</a>
-      <a href="menu.html">Menu</a>
-      <a href="specials.html">Specials</a>
+    <button class="menu-btn" aria-label="Open menu" aria-expanded="false">☰</button>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="about.html">Venue</a>
+      <a href="events.html">Events &amp; hire</a>
       <a href="gallery.html">Gallery</a>
-      <a href="catering.html">Catering</a>
-      <a href="about.html">About</a>
+      <a href="index.html#visit">Hours</a>
       <a href="contact.html">Contact</a>
-      <a class="btn btn-gold" href="today.html">Daily board</a>
+      <a class="btn btn-gold" href="events.html">Hire a space</a>
     </nav>
   </div>
 </header>
+
 <main id="main">
+  <section class="page-hero">
+    <div class="wrap">
+      <div class="eyebrow">Contact</div>
+      <h1>Find the pavilion</h1>
+      <p>43 Maxwell Street, Kempton Park · 011 394 1488</p>
+    </div>
+  </section>
 
-<section class="page-hero"><div class="wrap"><h1>Come eat</h1><p>43 Maxwell Street, Kempton Park · 011 394 1488</p></div></section>
-<section><div class="wrap grid-2">
-  <form class="board" data-demo>
-    <label>Name</label><input required>
-    <label>Email</label><input type="email" required>
-    <label>Message</label><textarea required></textarea>
-    <button class="btn btn-gold" type="submit">Send</button>
-    <p class="success">Message received.</p>
-  </form>
-  <div>
-    <p><a href="tel:+27113941488">011 394 1488</a><br>On the EASTC campus, next to the blue hall.</p>
-    <img src="assets/img/campus.jpg" alt="Campus" style="margin-top:16px;border-radius:18px;height:240px;width:100%;object-fit:cover">
-  </div>
-</div></section>
+  <section>
+    <div class="wrap grid-2 split-top">
+      <form class="board" data-enquiry>
+        <h2>Send a note</h2>
+        <p>Opens email to queries@eastc.co.za. For space hire, the events form collects date and headcount.</p>
+        <label for="name">Name</label>
+        <input id="name" name="name" required autocomplete="name">
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required autocomplete="email">
+        <label for="phone">Phone</label>
+        <input id="phone" name="phone" type="tel" autocomplete="tel">
+        <input type="hidden" name="space" value="General contact">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+        <button class="btn btn-gold" type="submit">Open email</button>
+        <p class="success">If your mail app did not open, write to queries@eastc.co.za.</p>
+      </form>
+      <div>
+        <div class="contact-list">
+          <p><strong>Address</strong>43 Maxwell Street (43B on some campus maps)<br>Kempton Park, 1619<br>On the EASTC campus, next to the blue hall.</p>
+          <p><a href="tel:+27113941488"><strong>Phone</strong>011 394 1488</a></p>
+          <p><a href="tel:+27826051134"><strong>Mobile</strong>082 605 1134</a></p>
+          <p><a href="mailto:queries@eastc.co.za"><strong>Email</strong>queries@eastc.co.za</a></p>
+          <p><strong>Kitchen hours</strong>Mon–Fri 07:00–17:30<br>Saturday 08:00–15:00<br>Sunday closed</p>
+        </div>
+        <img src="assets/img/campus.jpg" alt="EASTC campus and Food Court" style="margin-top:22px;border-radius:18px;height:240px;width:100%;object-fit:cover">
+      </div>
+    </div>
+  </section>
 
+  <section class="paper" style="padding-top:0">
+    <div class="wrap">
+      <iframe class="map" title="Map of 43 Maxwell Street, Kempton Park" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=43%20Maxwell%20Street%20Kempton%20Park&amp;z=16&amp;output=embed"></iframe>
+    </div>
+  </section>
 </main>
+
 <footer>
   <div class="wrap foot">
     <div>
       <a class="brand" href="index.html"><div class="mark">FC</div><strong>The Food Court</strong></a>
-      <p style="margin-top:12px">On the EASTC Technocentric Varsity campus. Hearty plates, daily specials, student prices.</p>
+      <p style="margin-top:12px">43 Maxwell Street, Kempton Park.</p>
     </div>
     <div>
-      <h3 style="color:#E0B25A;font-size:12px;letter-spacing:1.5px;text-transform:uppercase">Visit</h3>
-      <p>43 Maxwell Street, Kempton Park<br><a href="tel:+27113941488">011 394 1488</a></p>
+      <h3>Visit</h3>
+      <a href="tel:+27113941488">011 394 1488</a>
+      <a href="mailto:queries@eastc.co.za">queries@eastc.co.za</a>
     </div>
     <div>
-      <h3 style="color:#E0B25A;font-size:12px;letter-spacing:1.5px;text-transform:uppercase">Hours</h3>
-      <div class="hours">
-        <div><span>Mon–Fri</span><span>07:00–17:30</span></div>
-        <div><span>Saturday</span><span>08:00–15:00</span></div>
-        <div><span>Sunday</span><span>Kitchen closed</span></div>
-      </div>
+      <h3>This site</h3>
+      <a href="about.html">About the venue</a>
+      <a href="events.html">Events &amp; hire</a>
+      <a href="gallery.html">Gallery</a>
     </div>
     <div>
-      <h3 style="color:#E0B25A;font-size:12px;letter-spacing:1.5px;text-transform:uppercase">Ecosystem</h3>
+      <h3>EASTC ecosystem</h3>
+      <a href="https://eastech.co.za/">EASTC Holdings</a>
       <a href="https://eastechfoundation.co.za/">EASTC Foundation</a>
       <a href="https://eastech-institute.co.za/">EASTECH Institute</a>
-      <a href="https://eastech.co.za/">All three entities</a>
     </div>
   </div>
-  <div class="wrap legal"><span>&copy; <span data-year></span> The Food Court · EASTC Campus</span><span>Third entity of the Technocentric Varsity</span></div>
+  <div class="wrap legal"><span>&copy; <span data-year></span> The Food Court · EASTC Campus</span><span>Public venue site</span></div>
 </footer>
-<script src="assets/js/food.js"></script>
-<script src="../shared/3d.js"></script>
-</body></html>
+<script src="assets/js/venue.js"></script>
+</body>
+</html>

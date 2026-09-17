@@ -1,115 +1,252 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>The Food Court | EASTC Campus</title>
-<meta name="description" content="Daily meals, specials and menu updates at The Food Court, EASTC Technocentric Varsity, Kempton Park.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../shared/3d.css">
-<link rel="stylesheet" href="assets/css/food.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Food Court | EASTC Campus venue &amp; events</title>
+  <meta name="description" content="The Food Court is the EASTC campus venue on Maxwell Street, Kempton Park — kitchen, glass lounge, and courtyard for meals, gatherings, and hire.">
+  <link rel="canonical" href="https://eastechfoodcourt.co.za/">
+  <meta property="og:title" content="The Food Court | EASTC Campus venue &amp; events">
+  <meta property="og:description" content="Campus kitchen, glass lounge, and courtyard at 43 Maxwell Street, Kempton Park. Venue information and space hire — not an ordering app.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://eastechfoodcourt.co.za/">
+  <meta property="og:image" content="https://eastechfoodcourt.co.za/assets/img/campus.jpg">
+  <meta name="theme-color" content="#0B1F3A">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800;900&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/venue.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": ["FoodEstablishment", "EventVenue"],
+    "name": "The Food Court",
+    "description": "EASTC campus kitchen and events venue in Kempton Park.",
+    "url": "https://eastechfoodcourt.co.za/",
+    "telephone": "+27113941488",
+    "email": "queries@eastc.co.za",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "43 Maxwell Street",
+      "addressLocality": "Kempton Park",
+      "postalCode": "1619",
+      "addressCountry": "ZA"
+    },
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "07:00", "closes": "17:30" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "08:00", "closes": "15:00" }
+    ],
+    "parentOrganization": { "@type": "Organization", "name": "EASTC Holdings", "url": "https://eastech.co.za/" }
+  }
+  </script>
 </head>
 <body>
-<a class="skip" href="#main" style="position:absolute;left:12px;top:-40px">Skip</a>
+<a class="skip" href="#main">Skip to content</a>
 
 <header class="nav">
   <div class="wrap nav-inner">
     <a class="brand" href="index.html">
       <div class="mark">FC</div>
-      <div><strong>The Food Court</strong><div style="font-size:10px;letter-spacing:1.6px;color:#E0B25A;text-transform:uppercase">EASTC Campus · Kempton Park</div></div>
+      <div>
+        <strong>The Food Court</strong>
+        <small>EASTC Campus · Kempton Park</small>
+      </div>
     </a>
-    <button class="menu-btn" aria-label="Menu">☰</button>
-    <nav class="nav-links">
-      <a href="index.html">Today</a>
-      <a href="menu.html">Menu</a>
-      <a href="specials.html">Specials</a>
+    <button class="menu-btn" aria-label="Open menu" aria-expanded="false">☰</button>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="about.html">Venue</a>
+      <a href="events.html">Events &amp; hire</a>
       <a href="gallery.html">Gallery</a>
-      <a href="catering.html">Catering</a>
-      <a href="about.html">About</a>
+      <a href="index.html#visit">Hours</a>
       <a href="contact.html">Contact</a>
-      <a class="btn btn-gold" href="today.html">Daily board</a>
+      <a class="btn btn-gold" href="events.html">Hire a space</a>
     </nav>
   </div>
 </header>
+
 <main id="main">
-
-<section class="hero">
-  <div class="hero-bg ken" data-hero-slides="assets/img/serve.jpg,assets/img/lounge.jpg,assets/img/buffet.jpg,assets/img/exterior.jpg" style="background-image:url('assets/img/serve.jpg')"></div>
-  <div class="wrap hero-content">
-    <div class="live"><i></i> Kitchen open · board updates daily</div>
-    <div class="eyebrow">Entity 03 · EASTC Technocentric Varsity</div>
-    <h1>The Food Court</h1>
-    <p style="max-width:540px;color:rgba(255,255,255,.8)">Campus cooking with a proper board: breakfast, lunch, specials, and Friday grill. Scroll the day. Eat on Maxwell Street.</p>
-    <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:22px">
-      <a class="btn btn-gold" href="today.html">Today’s meals</a>
-      <a class="btn btn-ghost" href="menu.html">Full menu</a>
-      <a class="btn btn-ghost" href="specials.html">Specials</a>
-    </div>
-  </div>
-</section>
-<section>
-  <div class="wrap grid-2">
-    <div class="board" data-today>
-      <div class="eyebrow">Daily board</div>
-      <h2>Today · <span data-day>Wednesday</span></h2>
-      <p style="color:#E0B25A;margin-bottom:14px" data-special>Fried chicken Wednesday — 3pc + chips</p>
-      <div data-items>
-        <div class="meal"><span>Fried chicken 3pc</span><span class="price">R68</span></div>
-        <div class="meal"><span>Pap &amp; gravy</span><span class="price">R35</span></div>
-        <div class="meal"><span>Chakalaka beans</span><span class="price">R28</span></div>
-        <div class="meal"><span>Campus burger</span><span class="price">R69</span></div>
+  <section class="hero">
+    <div class="hero-bg" style="background-image:url('assets/img/campus.jpg')" role="img" aria-label="The Food Court pavilion on the EASTC campus"></div>
+    <div class="wrap hero-content">
+      <div class="eyebrow">Entity 03 · EASTC Technocentric Varsity</div>
+      <h1>Campus kitchen.<br><em>Venue on Maxwell Street.</em></h1>
+      <p>The Food Court is the glass pavilion on the EASTC grounds — plates downstairs, lounge in the light, courtyard for the day. Come eat. Hire the rooms. This is the public venue site, not an ordering app.</p>
+      <div class="hero-actions">
+        <a class="btn btn-gold" href="events.html">See hire spaces</a>
+        <a class="btn btn-ghost" href="#visit">Hours &amp; location</a>
+        <a class="btn btn-ghost" href="https://thefood-court.co.za/" rel="noopener">Daily meals →</a>
       </div>
-      <p style="margin-top:16px"><a class="btn btn-red" href="today.html">See the full board</a></p>
+      <div class="hero-meta">
+        <div><strong>Find us</strong>43 Maxwell Street, Kempton Park</div>
+        <div><strong>Kitchen</strong>Mon–Fri 07:00–17:30 · Sat 08:00–15:00</div>
+        <div><strong>Call</strong><a href="tel:+27113941488">011 394 1488</a></div>
+      </div>
     </div>
-    <div class="reveal-3d">
-      <img src="assets/img/lounge.jpg" alt="Food Court lounge" style="border-radius:22px;height:420px;width:100%;object-fit:cover">
-    </div>
-  </div>
-</section>
-<section style="background:#efe4d4">
-  <div class="wrap">
-    <div class="eyebrow">This week</div>
-    <h2 style="margin:8px 0 24px">Specials rotating through the kitchen</h2>
-    <div class="grid-3">
-      <article class="card"><img src="assets/img/chicken.jpg" alt="Fried chicken"><div class="card-body"><span class="tag">Wednesday</span><h3>Fried chicken 3pc</h3><p>Crisp pieces, pap or chips, campus price.</p></div></article>
-      <article class="card"><img src="assets/img/beans.jpg" alt="Bean stew"><div class="card-body"><span class="tag">Always on</span><h3>Chakalaka beans</h3><p>Slow pot, served with dumpling or pap.</p></div></article>
-      <article class="card"><img src="assets/img/burgers.jpg" alt="Burgers"><div class="card-body"><span class="tag">Grill</span><h3>Campus burger</h3><p>Sesame bun, cheese, chips in the box.</p></div></article>
-    </div>
-  </div>
-</section>
-<section class="fullbleed" style="background-image:url('assets/img/exterior.jpg')">
-  <div class="wrap"><h2>On campus. For students, staff, and the street.</h2><p>43 Maxwell Street, Kempton Park</p></div>
-</section>
+  </section>
 
+  <section id="about">
+    <div class="wrap grid-2">
+      <div>
+        <div class="eyebrow">The venue</div>
+        <h2>A named building on a working campus</h2>
+        <p class="lede">The Food Court is the third entity on the EASTC Technocentric Varsity campus, beside EASTC Foundation NPC and EASTECH Institute. It feeds students, staff, artisans, and neighbours — and it hosts the days that need a room, a pot, and a garden.</p>
+        <p>Ground floor is the kitchen and the Maxwell Street windows. Upstairs is the wood-ceiling lounge and glass pavilion. Outside, the courtyard runs to the blue EASTC hall. Study tables when class is on. Buffet trays when Foundation, SETA, or graduation days land.</p>
+        <div class="levels" aria-label="Venue levels">
+          <div class="level"><b>01</b><div><strong>Ground kitchen</strong><span>Service line, dining windows, campus plates.</span></div></div>
+          <div class="level"><b>02</b><div><strong>Glass lounge</strong><span>Leather seating, long tables, light for briefings and teas.</span></div></div>
+          <div class="level"><b>03</b><div><strong>Courtyard</strong><span>Lawn, drum seats, gazebos — markets and braai days.</span></div></div>
+        </div>
+      </div>
+      <div class="photo-stack">
+        <img class="photo" src="assets/img/lounge.jpg" alt="Upstairs lounge with leather seating and glass walls">
+        <div class="photo-chip"><strong>Upstairs</strong>Lounge in the glass pavilion</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="spaces" class="paper">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">Events &amp; hire</div>
+        <h2>Rooms, garden, and the kitchen that plates them</h2>
+        <p>Book a space for campus groups, partners, and private gatherings. Capacities are indicative — confirm when you enquire.</p>
+      </div>
+      <div class="grid-3">
+        <article class="space">
+          <img src="assets/img/lounge.jpg" alt="Food Court lounge">
+          <div class="space-body">
+            <h3>Upstairs lounge</h3>
+            <p>Soft seating, wood ceiling, glass on three sides. Teas, meetings, waiting rooms, and smaller receptions.</p>
+            <div class="pills"><span class="pill">± 20–40 guests</span><span class="pill">Indoor</span></div>
+          </div>
+        </article>
+        <article class="space">
+          <img src="assets/img/glass.jpg" alt="Glass pavilion dining room">
+          <div class="space-body">
+            <h3>Glass pavilion</h3>
+            <p>Long tables in the light. Briefings, study groups, plated lunches, and buffet service from the same kitchen.</p>
+            <div class="pills"><span class="pill">Dining / briefings</span><span class="pill">Upper level</span></div>
+          </div>
+        </article>
+        <article class="space">
+          <img src="assets/img/courtyard.jpg" alt="Campus courtyard garden">
+          <div class="space-body">
+            <h3>Courtyard garden</h3>
+            <p>Lawn to the EASTC hall. Gazebos, drum furniture, activations, markets, and Friday fire when the weather holds.</p>
+            <div class="pills"><span class="pill">Outdoor</span><span class="pill">Campus events</span></div>
+          </div>
+        </article>
+      </div>
+      <p style="margin-top:28px"><a class="btn btn-navy" href="events.html">Hire details &amp; enquiry</a></p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="kitchen-panel">
+        <div class="kitchen-copy">
+          <div class="eyebrow">Campus kitchen</div>
+          <h2>Still a kitchen. Ordering lives next door.</h2>
+          <p>Breakfast, lunch pots, and Friday grill still run from this building. Pre-order, cart, and checkout belong on <strong>thefood-court.co.za</strong> — this site stays venue and information.</p>
+          <div class="hero-actions">
+            <a class="btn btn-gold" href="https://thefood-court.co.za/" rel="noopener">Open meals site</a>
+            <a class="btn btn-ghost" href="meals.html">How the kitchen works</a>
+          </div>
+        </div>
+        <img src="assets/img/serve.jpg" alt="Buffet service at The Food Court">
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="paper">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">Gallery</div>
+        <h2>The room, the pots, the yard</h2>
+        <p>Photographs from the Maxwell Street Food Court — building, lounge, courtyard, and kitchen.</p>
+      </div>
+      <div class="gallery-grid" data-gallery>
+        <a class="wide" href="assets/img/campus.jpg"><img src="assets/img/campus.jpg" alt="Campus overview with The Food Court pavilion"></a>
+        <a href="assets/img/exterior.jpg"><img src="assets/img/exterior.jpg" alt="Food Court exterior signage"></a>
+        <a class="tall" href="assets/img/glass.jpg"><img src="assets/img/glass.jpg" alt="Glass pavilion"></a>
+        <a href="assets/img/guest.jpg"><img src="assets/img/guest.jpg" alt="Guest working in the lounge"></a>
+        <a href="assets/img/buffet.jpg"><img src="assets/img/buffet.jpg" alt="Buffet line in the lounge"></a>
+        <a href="assets/img/courtyard.jpg"><img src="assets/img/courtyard.jpg" alt="Courtyard garden"></a>
+      </div>
+      <p style="margin-top:22px"><a class="btn btn-outline" href="gallery.html">Full gallery</a></p>
+    </div>
+  </section>
+
+  <section id="visit">
+    <div class="wrap grid-2 split-top">
+      <div>
+        <div class="eyebrow">Visit</div>
+        <h2>43 Maxwell Street, Kempton Park</h2>
+        <p class="lede">On the EASTC Technocentric Varsity campus — 43B on some campus listings — next to the blue hall. Card and cash at the kitchen. Ask at the counter for allergens.</p>
+        <div style="display:grid;gap:16px;margin-top:28px">
+          <div class="hours-card">
+            <h3 style="color:var(--navy);margin-bottom:14px">Kitchen hours</h3>
+            <ul class="hours">
+              <li><span>Monday–Friday</span><b>07:00–17:30</b></li>
+              <li><span>Saturday</span><b>08:00–15:00</b></li>
+              <li><span>Sunday</span><b>Kitchen closed</b></li>
+            </ul>
+            <p style="margin-top:16px;color:var(--muted);font-size:13px">Event hire can run outside kitchen hours by arrangement.</p>
+          </div>
+          <div class="visit-card">
+            <h3 style="color:var(--navy);margin-bottom:14px">Contact</h3>
+            <p><a href="tel:+27113941488"><strong>Phone</strong><br>011 394 1488</a></p>
+            <p style="margin-top:12px"><a href="mailto:queries@eastc.co.za"><strong>Email</strong><br>queries@eastc.co.za</a></p>
+            <p style="margin-top:12px"><a href="tel:+27826051134"><strong>Mobile</strong><br>082 605 1134</a></p>
+            <p style="margin-top:18px"><a class="btn btn-gold" href="contact.html">Write to us</a></p>
+          </div>
+        </div>
+      </div>
+      <iframe class="map" title="Map of 43 Maxwell Street, Kempton Park" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=43%20Maxwell%20Street%20Kempton%20Park&amp;z=16&amp;output=embed"></iframe>
+    </div>
+  </section>
 </main>
+
 <footer>
   <div class="wrap foot">
     <div>
       <a class="brand" href="index.html"><div class="mark">FC</div><strong>The Food Court</strong></a>
-      <p style="margin-top:12px">On the EASTC Technocentric Varsity campus. Hearty plates, daily specials, student prices.</p>
+      <p style="margin-top:12px">Venue and campus kitchen on the EASTC Technocentric Varsity grounds. Third entity of the campus.</p>
     </div>
     <div>
-      <h3 style="color:#E0B25A;font-size:12px;letter-spacing:1.5px;text-transform:uppercase">Visit</h3>
-      <p>43 Maxwell Street, Kempton Park<br><a href="tel:+27113941488">011 394 1488</a></p>
+      <h3>Visit</h3>
+      <p>43 Maxwell Street<br>Kempton Park, 1619</p>
+      <a href="tel:+27113941488">011 394 1488</a>
+      <a href="mailto:queries@eastc.co.za">queries@eastc.co.za</a>
     </div>
     <div>
-      <h3 style="color:#E0B25A;font-size:12px;letter-spacing:1.5px;text-transform:uppercase">Hours</h3>
-      <div class="hours">
-        <div><span>Mon–Fri</span><span>07:00–17:30</span></div>
-        <div><span>Saturday</span><span>08:00–15:00</span></div>
-        <div><span>Sunday</span><span>Kitchen closed</span></div>
-      </div>
+      <h3>This site</h3>
+      <a href="about.html">About the venue</a>
+      <a href="events.html">Events &amp; hire</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+      <a href="https://thefood-court.co.za/" rel="noopener">Meals &amp; pre-order</a>
     </div>
     <div>
-      <h3 style="color:#E0B25A;font-size:12px;letter-spacing:1.5px;text-transform:uppercase">Ecosystem</h3>
+      <h3>EASTC ecosystem</h3>
+      <a href="https://eastech.co.za/">EASTC Holdings</a>
       <a href="https://eastechfoundation.co.za/">EASTC Foundation</a>
       <a href="https://eastech-institute.co.za/">EASTECH Institute</a>
-      <a href="https://eastech.co.za/">All three entities</a>
+      <a href="https://eastc.co.za/">eastc.co.za</a>
     </div>
   </div>
-  <div class="wrap legal"><span>&copy; <span data-year></span> The Food Court · EASTC Campus</span><span>Third entity of the Technocentric Varsity</span></div>
+  <div class="wrap legal">
+    <span>&copy; <span data-year></span> The Food Court · EASTC Campus</span>
+    <span>Public venue site · ordering is on thefood-court.co.za</span>
+  </div>
 </footer>
-<script src="assets/js/food.js"></script>
-<script src="../shared/3d.js"></script>
-</body></html>
+
+<div class="lightbox" data-lightbox role="dialog" aria-modal="true" aria-label="Photograph">
+  <button type="button" data-close aria-label="Close">×</button>
+  <img alt="">
+</div>
+<script src="assets/js/venue.js"></script>
+</body>
+</html>
